@@ -1,0 +1,59 @@
+.body{/* This  changes the pages axis and will help put the footer at the bottom*/
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 16px;
+    /* Switching it back to row flex for the header  */
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    font-family: hero;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: hero;
+
+}
+.left-Link{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    /* margin-right: auto; */
+
+}
+.left-Link > a {
+    font-size: 24px;
+} 
+.right-Link{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    /* margin-left: auto; */
+ 
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+.footer{
+ display: flex;
+justify-content: space-between;
+padding: 16px;
+background-color: #1f2937;
+color: white;
+} 
